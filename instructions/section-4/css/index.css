@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', cursive;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -10,9 +10,15 @@ nav {
 }
 
 .menu {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+.menu-text {
+  color: #01060a;
+  margin-right: 10px;
 }
 
 .ball {
@@ -60,30 +66,45 @@ section {
   padding: 20px;
 }
 
+#menu {
+  background-color: #007bff;
+  font-family: 'Brush Script', cursive;
+  font-weight: 500;
+  font-size: large;
+}
 
 #about {
-  background-color: #9dcde9;
-  font-family: 'Georgia', serif;
+  background-color: #ffefd5;
+  font-family: 'Brush Script', cursive;
 }
 
 #experience {
-  background-color: #d3d3d3;
-  font-family: 'Courier New', monospace;
+  background-color: #ffefd5;
+  font-family: 'Brush Script', cursive;
+}
+
+.experience-container li {
+  margin-bottom: 10px;
 }
 
 #connect {
-  background-color: #e6e6fa;
-  font-family: 'Verdana', sans-serif;
+  background-color: #ffefd5;
+  font-family: 'Brush Script', cursive;
 }
 
 #skills {
-  background-color: #d8bfd8;
-  font-family: 'Courier New', monospace;
+  background-color: #ffefd5;
+  font-family: 'Brush Script', cursive;
 }
 
 #contact {
-  background-color: #cccc51;
-  font-family: 'Arial', sans-serif;
+  background-color: #ffefd5;
+  font-family: 'Brush Script', cursive;
+}
+
+#projects {
+  background-color: #ffefd5;
+  font-family: 'Brush Script', cursive;
 }
 
 
