@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const menu = document.getElementById('menu');
     const cube = document.querySelector('.cube');
-
+    const ball = document.querySelector('.ball');
     
     menu.addEventListener('mouseenter', function () {
         cube.style.display = 'flex';
@@ -9,6 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     menu.addEventListener('mouseleave', function () {
         cube.style.display = 'none';
+    });
+
+    menu.addEventListener('mouseleave', function () {
+        cube.style.display = 'none';
+        // Change the text inside the ball when menu is closed
+        ball.innerText = '';
     });
 
     const messageForm = document.getElementById('leave_message');
